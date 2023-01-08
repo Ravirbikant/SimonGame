@@ -59,7 +59,7 @@ $(".btn").click(function(){
 });
 
 function playSound(name){
-    var audio = new Audio("sounds/"+name+".mp3");
+    var audio = new Audio(name+".mp3");
     audio.play();
 }
 
@@ -72,6 +72,3 @@ function animatePress(currentColor){
 
 
 
-/* 
-Prepare fresh sequence on every reload or game over with no cache
-*/
